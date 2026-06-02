@@ -1,0 +1,35 @@
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+
+  
+    input[type=range]::-moz-range-track {
+      @apply hidden cursor-pointer;
+    }
+
+    input[type=range]::-moz-range-track:hover {
+        @apply block bg-white cursor-pointer transition duration-300 ease-in-out;
+    }
+
+    input[type=range]::-moz-range-progress  {
+      @apply bg-red-500 rounded-full cursor-pointer;
+    }
+
+    input[type=range]::-moz-range-thumb {
+      @apply bg-red-500 rounded-full h-2 w-2 cursor-pointer;
+    }
+    input[type=range]::-moz-range-thumb:hover {
+      @apply bg-red-600 scale-125 transition duration-300 ease-in-out; 
+    }
+  
+    input[type=range]::-ms-track {
+      @apply bg-red-500 rounded-full;
+    }
+  
+  }
