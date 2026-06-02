@@ -26,8 +26,8 @@ npm run dev            # http://localhost:5173
 ### Variables de entorno
 
 ```env
-VITE_API_URL=http://localhost:8000/api
-VITE_GOOGLE_CLIENT_ID=...apps.googleusercontent.com
+VITE_STRIPE_PK=pk_test_...
+VITE_API_URL=http://localhost:8000
 ```
 
 ---
